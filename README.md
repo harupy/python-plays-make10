@@ -5,12 +5,12 @@ A python script to play Make10 in [Brain Wars](https://play.google.com/store/app
 ## Game Rule
 The rule of this game is quite simple. Just tap the cards to make a 10.
 
-## How it works
+## How this works
 1. Apply contour detection and crop out the portion of each card which contains number
 2. Pass the cropped images to a KNN-classifier and recognize the numbers on each card
 3. Find a combination of cards which adds up to 10 and tap them
 
-## Required Libraries
+## Requirements
 - numpy
 - sklearn
 - opencv
